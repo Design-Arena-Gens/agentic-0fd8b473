@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+license="LGPL-3.0"
+issueTrackerURL="https://github.com/prismforge/ui/issues"
+
+[[mods]]
+modId="prismforge"
+version="1.0.0"
+displayName="PrismForge UI"
+description='''
+A cinematic UI and utility mod for Minecraft 1.14.4 with adaptive HUD, radial commands,
+telemetry overlays, and PojavLauncher tuning.
+'''
+authors="PrismForge Studio"
+
+[[dependencies.prismforge]]
+modId="forge"
+mandatory=true
+versionRange="[28.2.0,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.prismforge]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.14.4]"
+ordering="NONE"
+side="CLIENT"
